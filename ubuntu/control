@@ -10,4 +10,4 @@ Package: route53-formula-salt
 Architecture: all
 Depends: ${misc:Depends}, salt-master, reclass
 Description: SaltStack Salt salt salt-formula route53 formula
- Manage route53e on AWS
+ Manage route53 assets on AWS
