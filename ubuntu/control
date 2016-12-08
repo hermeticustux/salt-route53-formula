@@ -1,0 +1,13 @@
+Source: route53-formula-salt
+Maintainer: Ashlin Jones
+Section: admin
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/hermeticustuxmegistus/salt-route53-formula
+
+Package: route53-formula-salt
+Architecture: all
+Depends: ${misc:Depends}, salt-master, reclass
+Description: SaltStack Salt salt salt-formula route53 formula
+ Manage route53e on AWS
